@@ -3,10 +3,8 @@ const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
 
-    // Validate that variables exist
     if(toggle && nav){
         toggle.addEventListener('click', () =>{
-            // We add the show-menu class to the div tag with the nav__menu class
             nav.classList.toggle('show-menu')
         })
     }
@@ -31,7 +29,7 @@ let galleryTop = new Swiper('.gallery-top', {
 
 
 /*==================== POPUP ====================*/
-const btnOpenVideo = document.querySelectorAll('.wonders__video-content')
+const btnOpenVideo = document.querySelectorAll('.wonders-video-content')
 const wondersPopup = document.getElementById('popup')
 
 function poPup(){
@@ -46,14 +44,14 @@ btnCloseVideo.addEventListener('click', ()=> {
 })
 
 /*==================== GSAP ANIMATION ====================*/
-const controlImg = document.querySelectorAll('.controls__img')
+const controlImg = document.querySelectorAll('.controls-img')
 
 function scrollAnimation(){
-    gsap.from('.wonders__subtitle', {opacity: 0, duration: .2, delay: .2, y: -20})
-    gsap.from('.wonders__title', {opacity: 0, duration: .3, delay: .3, y: -20})
-    gsap.from('.wonders__description', {opacity: 0, duration: .4, delay: .4, y: -20})
-    gsap.from('.wonders__button', {opacity: 0, duration: .5, delay: .5, y: -20})
-    gsap.from('.wonders__video-content', {opacity: 0, duration: .6, delay: .6, y: -20})
+    gsap.from('.wonders-subtitle', {opacity: 0, duration: .2, delay: .2, y: -20})
+    gsap.from('.wonders-title', {opacity: 0, duration: .3, delay: .3, y: -20})
+    gsap.from('.wonders-description', {opacity: 0, duration: .4, delay: .4, y: -20})
+    gsap.from('.wonders-button', {opacity: 0, duration: .5, delay: .5, y: -20})
+    gsap.from('.wonders-video-content', {opacity: 0, duration: .6, delay: .6, y: -20})
 
     wondersPopup.classList.remove('show-popup')
 }

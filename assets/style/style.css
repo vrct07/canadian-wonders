@@ -271,7 +271,7 @@ img {
 }
 
 /*========== MEDIA QUERIES ==========*/
-/* For small devices */
+/* small devices */
 @media screen and (max-width: 320px) {
   .bd-container {
     margin-left: 1rem;
