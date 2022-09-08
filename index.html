@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+       <!--== Box Icons ==-->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+       <!--========== SWIPER CSS ==========-->
+       <link rel="stylesheet" href="assets/style/swiper-bundle.min.css">
+       <link rel="stylesheet" href="assets/style/style.css">
+    <title>Canadian Wonders</title>
+</head>
+<body>
+    <!--========== HEADER ==========-->
+    <header class="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav-logo">Travel</a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Explore</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Hotels</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--========== MAIN ==========-->
+    <main class='main'>
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <!--========== wonders 1 ==========-->
+                <section class="wonders swiper-slide">
+                    <img src="assets/img/moraine-lake.png" alt="" class="wonders-bg">
+
+                    <div class="wonders-container bd-container">
+                        <div class="wonders-data">
+                            <h2 class="wonders-subtitle">wonders</h2>
+                            <h1 class="wonders-title">Moraine Lake</h1>
+                            <p class="wonders-description">The Canadian Rockies or Canadian Rocky Mountains, comprising both the Alberta Rockies and the B.C. Rockies, is the Canadian segment of the North American Rocky Mountains.</p>
+                            <a href="#" class="wonders-button">Explore <i class='bx bx-right-arrow-alt wonders-button-icon'></i></a>
+                        </div>
+
+                        <div class="wonders-video">
+                            <div class="wonders-video-content">
+                                <i class='bx bx-play-circle wonders-video-icon'></i>
+                            </div>
+                        </div> 
+                    </div>
+                </section>
+    
+                <!--========== wonders 2 ==========-->
+                <section class="wonders swiper-slide">
+                    <img src="assets/img/niagara.png" alt="" class="wonders-bg">
+
+                    <div class="wonders-container bd-container">
+                        <div class="wonders-data">
+                            <h2 class="wonders-subtitle">wonders</h2>
+                            <h1 class="wonders-title">Niagara Falls</h1>
+                            <p class="wonders-description">INiagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, which straddles the international border of the two countries.</p>
+                            <a href="#" class="wonders-button">Explore <i class='bx bx-right-arrow-alt wonders-button-icon'></i></a>
+                        </div>
+
+                        <div class="wonders-video">
+                            <div class="wonders-video-content">
+                                <i class='bx bx-play-circle wonders-video-icon'></i>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+                
+                <!--========== wonders 3 ==========-->
+                <section class="wonders swiper-slide">
+                    <img src="assets/img/aurora.jpg" alt="" class="wonders-bg">
+
+                    <div class="wonders-container bd-container">
+                        <div class="wonders-data">
+                            <h2 class="wonders-subtitle">wonders</h2>
+                            <h1 class="wonders-title">Aurora</h1>
+                            <p class="wonders-description">An aurora,also commonly known as the polar lights, is a natural light display in Earth's sky, predominantly seen in high-latitude regions. Auroras display dynamic patterns of brilliant lights that appear as curtains, rays, spirals, or dynamic flickers covering the entire sky.</p>
+                            <a href="#" class="wonders-button">Explore <i class='bx bx-right-arrow-alt wonders-button-icon'></i></a>
+                        </div>
+
+                        <div class="wonders-video">
+                            <div class="wonders-video-content">
+                                <i class='bx bx-play-circle wonders-video-icon'></i>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+
+                <!--========== wonders POPUP ==========-->
+                <div class="wonders-popup" id="popup">
+                    <div>
+                        <div class="wonders-popup-close" id="popup-close">
+                            <i class='bx bx-x'></i>
+                        </div>
+        
+                        <iframe class="wonders-popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--========== CONTROLS ==========-->
+        <div class="controls gallery-thumbs">
+            <div class="controls-container swiper-wrapper">
+                <img src="assets/img/moraine-lake.png" alt="" class="controls-img swiper-slide">
+                <img src="assets/img/niagara.png" alt="" class="controls-img swiper-slide">
+                <img src="assets/img/aurora.jpg" alt="" class="controls-img swiper-slide">
+            </div>
+        </div>
+    </main>
+
+    <!--========== GSAP ==========-->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!--========== SWIPER JS ==========-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
