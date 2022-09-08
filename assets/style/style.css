@@ -153,6 +153,7 @@ img {
   align-content: center;
 }
 
+
 .wonders-subtitle, .wonders-title, .wonders-description {
   color: var(--body-color);
 }
@@ -349,6 +350,7 @@ img {
   }
   .wonders-description {
     padding-right: 11rem;
+    width: 700px;
   }
 }
 
