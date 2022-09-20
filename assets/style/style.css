@@ -39,7 +39,7 @@ body {
   margin: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: black;
   color: var(--text-color);
 }
 
@@ -129,10 +129,11 @@ img {
   top: calc(var(--header-height) + 1rem);
 }
 
-/*========== INLANDS ==========*/
+/*========== Wonders ==========*/
 .wonders {
   height: 100vh;
   position: relative;
+  height: 100vh !important;
 }
 
 .wonders-bg {
